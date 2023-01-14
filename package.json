@@ -1,0 +1,25 @@
+{
+  "name": "demo-openai-completion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node chat.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im0039kp/demo-openai-completion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MTI",
+  "bugs": {
+    "url": "https://github.com/im0039kp/demo-openai-completion/issues"
+  },
+  "homepage": "https://github.com/im0039kp/demo-openai-completion#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
