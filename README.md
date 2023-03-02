@@ -5,6 +5,27 @@
 - python .python-version を参照
 - node .node-version .nvmrc を参照
 
+## ChatGPT を利用する
+
+事前に openai などのモジュールをインストールしていた場合はアップグレードしてください。
+
+- python openai 0.27.0
+- node openai 3.2.1
+
+以上だと大丈夫だと思います。
+
+- python インストール済のアップグレード方法
+
+  ```
+  pip install -U openai
+  ```
+
+- node インストール済のアップグレード方法
+
+  ```
+  npm update openai
+  ```
+
 ## 準備
 
 - python
@@ -32,9 +53,11 @@ API_KEY_OPENAI="OpenAIのAPIキーを定義"
   VSCode から直接ファイルを実行
 
 - node
-  npx ts-node chat.ts を実行
+  npx ts-node chatGPT.ts を実行
 
 ## パラメーター
+
+chatGPT からパラメーターがどのように変わったのかは詳しく調べていません。
 
 ```
 // ランダム性の制御下げるとランダム性の補完が少なくなる
